@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^index   index.php?act=index&%{QUERY_STRING}
+RewriteRule ^addcar   index.php?act=addcar&%{QUERY_STRING}
+RewriteRule ^car   index.php?act=getcar&%{QUERY_STRING}
+RewriteRule ^viewcar   index.php?act=viewcar&%{QUERY_STRING}
